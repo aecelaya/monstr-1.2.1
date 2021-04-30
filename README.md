@@ -1,12 +1,14 @@
-# MONSTR-1.2.1
+## MONSTR-1.2.1
 
 MONSTR (Multi-cONtrast brain STRipping) is a skull-stripping tool for multi-contrast MR images. This repository contains modified scripts from the original package that allow for MONSTR to work on a Docker image.
 
-### Coming soon
+For more information on the MONSTR tool itself, visit the package's website - https://www.nitrc.org/projects/monstr/
+
+#### Coming soon
 - Dockerfile to build MONSTR Docker image
 - Link to MONSTR Docker image on Docker Hub
 
-### Modifications
+#### Modifications
 Uncomment lines 76 - 78 in `MONSTR.sh` and export the `DISPLAY` variable.
 
 Before:
