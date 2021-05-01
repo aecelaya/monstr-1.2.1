@@ -9,7 +9,7 @@ For more information on the MONSTR tool itself, visit the package's website - ht
 - Link to MONSTR Docker image on Docker Hub
 
 #### Modifications
-Uncomment lines 76 - 78 in `MONSTR.sh` and export the `DISPLAY` variable.
+In `MONSTR.sh`, uncomment lines 76 - 78 and export the `DISPLAY` variable, and add `pkill Xvfb` after the last line of the script.
 
 Before:
 ```bash
